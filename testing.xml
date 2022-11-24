@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="orangehrm Task Suite">
+    <parameter name="browser" value="FIREFOX"></parameter>
+    <test name="Regression Test">
+        <classes>
+            <class name="tests.LoginTest"/>
+        </classes>
+    </test>
+</suite>
